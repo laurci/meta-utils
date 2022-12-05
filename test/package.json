@@ -1,0 +1,29 @@
+{
+    "name": "test",
+    "description": "Empty project",
+    "version": "0.0.1",
+    "private": true,
+    "author": "Laurentiu Ciobanu",
+    "main": "./dist/index.js",
+    "scripts": {
+        "build": "tsc",
+        "clean": "rimraf dist",
+        "format": "prettier --write . && tsfmt -r"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "@types/node": "^18.11.3",
+        "@typescript-eslint/eslint-plugin": "^5.40.0",
+        "@typescript-eslint/parser": "^5.40.0",
+        "eslint": "^8.25.0",
+        "prettier": "^2.7.1",
+        "rimraf": "^3.0.2",
+        "typescript": "npm:@laurci/typescript@latest",
+        "typescript-formatter": "^7.2.2",
+        "@laurci/injector": "link:../injector",
+        "utils": "link:../meta-utils"
+    },
+    "resolutions": {
+        "typescript": "npm:@laurci/typescript@latest"
+    }
+}

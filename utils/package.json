@@ -1,0 +1,32 @@
+{
+    "name": "@laurci/utils",
+    "description": "Basic utils",
+    "version": "0.0.1",
+    "private": true,
+    "author": "Laurentiu Ciobanu",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "clean": "rimraf dist",
+        "format": "prettier --write . && tsfmt -r"
+    },
+    "dependencies": {},
+    "peerDependencies": {
+        "@laurci/injector": "*"
+    },
+    "devDependencies": {
+        "@types/node": "^18.11.3",
+        "@typescript-eslint/eslint-plugin": "^5.40.0",
+        "@typescript-eslint/parser": "^5.40.0",
+        "eslint": "^8.25.0",
+        "prettier": "^2.7.1",
+        "rimraf": "^3.0.2",
+        "typescript": "npm:@laurci/typescript@latest",
+        "typescript-formatter": "^7.2.2",
+        "@laurci/injector": "link:../injector"
+    },
+    "resolutions": {
+        "typescript": "npm:@laurci/typescript@latest"
+    }
+}
