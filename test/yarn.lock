@@ -940,7 +940,7 @@ uri-js@^4.2.2:
   dependencies:
     punycode "^2.1.0"
 
-"utils@link:../meta-utils":
+"utils@link:../utils":
   version "0.0.0"
   uid ""
 

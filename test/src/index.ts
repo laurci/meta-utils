@@ -2,7 +2,7 @@ import { bootstrap } from "utils";
 import { debug } from "utils/debug";
 
 bootstrap({
-    log: true
+    debug: true
 });
 
 

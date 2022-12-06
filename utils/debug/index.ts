@@ -30,7 +30,7 @@ function createLog(factory: NodeFactory, sourceFile: SourceFile, node: MacroCall
     intro += "]";
 
     return factory.createCallExpression(
-        createInjectorExpression(factory, "utils_log_debug"),
+        createInjectorExpression(factory, "utils_debug"),
         [],
         [
             factory.createStringLiteral(intro),
