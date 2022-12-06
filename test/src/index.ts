@@ -5,7 +5,6 @@ bootstrap({
     debug: true
 });
 
-
 function main() {
     debug!("hello!");
 }
