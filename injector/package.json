@@ -2,9 +2,11 @@
     "name": "@laurci/injector",
     "description": "Global injectors",
     "version": "0.0.1",
-    "private": true,
     "author": "Laurentiu Ciobanu",
     "main": "./dist/index.js",
+    "publishConfig": {
+        "access": "public"
+    },
     "scripts": {
         "build": "tsc",
         "format": "prettier --write . && tsfmt -r"
