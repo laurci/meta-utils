@@ -1,10 +1,14 @@
 {
     "name": "@laurci/utils",
     "description": "Basic utils",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "author": "Laurentiu Ciobanu",
     "main": "./dist/index.js",
     "types": "./dist/index.d.ts",
+    "files": [
+        "dist/",
+        "debug/"
+    ],
     "publishConfig": {
         "access": "public"
     },

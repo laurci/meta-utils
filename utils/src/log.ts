@@ -16,7 +16,9 @@ export function utils_debug(...args: LogArg[]) {
                 process.stdout.write((arg.value as any).debugPrint());
             } else {
                 process.stdout.write(utils.inspect(arg.value, {
-                    colors: true
+                    colors: true,
+                    depth: null,
+                    showHidden: false
                 }));
             }
             process.stdout.write(")");
