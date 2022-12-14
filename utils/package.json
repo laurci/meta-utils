@@ -1,7 +1,7 @@
 {
     "name": "@laurci/utils",
     "description": "Basic utils",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "author": "Laurentiu Ciobanu",
     "main": "./dist/index.js",
     "types": "./dist/index.d.ts",
