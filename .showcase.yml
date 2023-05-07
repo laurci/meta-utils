@@ -1,0 +1,5 @@
+size: small
+description: |
+ This project is a collection of utilities that are used by my other macros. It uses many of the features in my compiler to provide a better developer experience for things like build configuration, logging, FS path operations, etc.
+tags:
+  - meta-programming
